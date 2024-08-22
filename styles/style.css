@@ -1,4 +1,43 @@
 @charset "UTF-8";
+.c__mainImage {
+  background-size: contain;
+  background-position: center;
+  background-image: url("../assets/msNewLogo.jpeg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; /* Certifique-se de que nada sairá dos limites */
+}
+
+.c__mainImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Exemplo de overlay para antes */
+  z-index: 0; /* Mantém ele atrás do conteúdo principal */
+}
+
+.c__mainImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit; /* Herdar o fundo da imagem */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+  z-index: 2; /* Para estar acima do conteúdo principal */
+}
+
+.c__mainImage:hover::after {
+  transform: scale(1.2); /* Aumenta o tamanho ao passar o mouse */
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
