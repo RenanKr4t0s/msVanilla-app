@@ -2,3 +2,8 @@
 - [ ] Fazer bootstrap rodar local
 - [ ] Colocar o Sass pra modificar o bootstrap
 - [ ] Criar o primeiro Helloi World do projeto
+
+## Utilizando no App
+- Vanila tilt
+- Bootstrap
+- Sass

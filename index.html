@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>MS Catsitter</title>
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <title>MS Catsitter</title>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-secondary">
+      <nav class="navbar fixed-top border-bottom border-warning shadow-sm navbar-expand-lg bg-white">
             <div class="container-fluid ps-3">
-              <a class="navbar-brand" href="/">
-                <img src="/assets/logo.png" alt="Logo" width="30" height="26" class="d-inline-block align-text-top">
-                  <span class="text-primary">MS Catsitter</span>
+              <a class="navbar-brand btn btn-secondary" href="/">
+                <img src="/assets/logo.png" alt="Logo" width="40" height="40" class="d-inline-block">
+                  <span class="text-primary pe-4">MS Catsitter</span>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,74 +41,152 @@
                 </ul>
             </div>
         </div>
-    </nav>
-</header>
-<main>
-    <div class="bg-primary">
-        <div class='c__mainImage'> </div> 
-    </div>
-    <div  id="catsitting" class="bg-secondary">
-        <div class="container primary">
-            <div class='row justify-content-center'>
-                <div class='col-lg-5 col-12 m-3'>
-                    <div class='bg-white rounded pt-2 shadow'>
-                        <h3 class='mb-5 mx-3'>O que é Catsitting?</h3>
-                        <p class='h5  mx-3 lh-lg'>Cat Sitting é o serviço especializado em cuidar de gatos na ausência de seus tutores, garantindo que eles recebam toda a atenção, carinho e cuidados necessários no conforto de suas próprias casas.</p>
+      </nav>
+    </header>
+    <main>
+      <div class=" py-5">
+          <div class='container text-center py-5'>
+            <img class="img-fluid w-50 m-5 bg-secondary rounded-3 p-2" data-tilt data-tilt-scale="1.2" src="./assets/msCatSitterCrop.png" alt="Logomarca MS Catsitter">
+          </div> 
+      </div>
+      <div  data-section id="catsitting" class="bg-secondary overflow-x-hidden">
+        <div class="bg-primary shadow-lg row text-center align-items-center">
+          <h2 class="h1 text-warning my-5">
+            <i class="bi bi-patch-question me-3"></i>
+            O que é Catsitting
+            <i class="bi bi-patch-question ms-3"></i>
+          </h2>
+        </div>
+          <div class="container primary py-5">
+              <div class='row justify-content-center'>
+                  <div class='col-lg-5 col-12 m-3'>
+                      <div class='bg-white rounded pt-2 shadow'>
+                          <p class='h5  mx-3 lh-lg'>Cat Sitting é o serviço especializado em cuidar de gatos na ausência de seus tutores, garantindo que eles recebam toda a atenção, carinho e cuidados necessários no conforto de suas próprias casas.</p>
+                      </div>
+                      <div class='d-flex justify-content-center'>
+                          <img class='opacity-75 img-fluid rounded mt-3 w-50' data-tilt data-tilt-scale="1.1" src="assets/logoMsCatsitter.png" alt="Novo logo da MS"></img>
+                      </div>
+                  </div>
+                    <div class="col-lg-5 col-12 m-3">
+                      <div class='bg-white rounded pt-2 shadow'>
+                          <p class='h5 mx-3 lh-lg'>Além de oferecer alimentação, limpeza das caixas de areia e cuidados básicos, o Cat Sitter também se dedica a brincar, interagir e <span>monitorar a saúde</span> dos felinos. Mais do que um simples serviço, Cat Sitting é a <span>arte de cuidar</span> de diversos gatinhos como se fossem nossos próprios, respeitando suas individualidades e proporcionando segurança e tranquilidade tanto para os pets quanto para seus tutores.</p>
+                      </div>
                     </div>
-                    <div class='d-flex justify-content-center'>
-                        <img class='img-fluid rounded mt-3 w-25' src="assets/logo.png" alt="Novo logo da MS"></img>
-                    </div>
-                </div>
-                <div class='col-lg-5 col-12 bg-white rounded m-3 pt-2 shadow'>
-                    <p class='h6 mx-3 lh-lg'>Além de oferecer alimentação, limpeza das caixas de areia e cuidados básicos, o Cat Sitter também se dedica a brincar, interagir e <span>monitorar a saúde</span> dos felinos. Mais do que um simples serviço, Cat Sitting é a <span>arte de cuidar</span> de diversos gatinhos como se fossem nossos próprios, respeitando suas individualidades e proporcionando segurança e tranquilidade tanto para os pets quanto para seus tutores.</p>
-                </div>
-            </div>
+              </div>
+          </div>
+      </div>
+      <div data-section id="whoami" class="overflow-x-hidden">
+        <div class="bg-primary shadow-lg row text-center align-items-center">
+          <h2 class="h1 text-warning my-5">
+            <i class="bi bi-patch-question me-3"></i>
+            Quem é a Tia Má
+            <i class="bi bi-patch-question ms-3"></i>
+          </h2>
         </div>
-    </div>
-    <div  id="whoami" class="container primary my-5 px-5 pb-5">
-        <div class='row justify-content-center'>
-            <div class='col-lg-4 col-12 bg-primary shadow rounded'>
-                <img class='my-1 img-fluid rounded shadow' src="assets/msNewLogo.jpeg" alt="Novo logo da MS"></img>
-                <img class=' img-fluid rounded shadow' src="assets/msNewLogo.jpeg" alt="Novo logo da MS"></img>
-                <img class='my-1 img-fluid rounded shadow' src="assets/msNewLogo.jpeg" alt="Novo logo da MS"></img>
-            </div>
-            <div class='col-lg-8 col-12 ps-4'>
-                <h3 class='h1 mb-5'>Quem é a Tia Má?</h3>
-                <p class="h6 lh-lg text-start">
-                    Era uma vez uma <span class="text-primary">gateira</span> chamada Tia Má, mãe orgulhosa de dois "<span class="text-primary">nenês</span>" adoráveis, Lilo e Stitch. A paixão por seus <span class="text-primary">felinos</span> era tão grande que, quando precisou de um Cat Sitter de confiança, percebeu o quão difícil era encontrar alguém que realmente entendesse suas necessidades e cuidasse de seus gatos como ela faria. 
-                  <br/><br/>
-                    A busca em aplicativos e sites foi frustrante, e Tia Má pensou: "Se eu estou enfrentando essa dificuldade, quantos outros <span class="text-primary">gateiros e gateiras</span> também não estão?" Foi então que uma ideia começou a crescer em seu coração.
+        <div class="container primary mt-5 px-5 pb-5">
+          <div class='row justify-content-center'>
+              <div class='col-lg-4 col-12 bg-warning shadow rounded'>
+                  <img class='my-2 img-fluid rounded shadow' src="assets/tiaMaXavier.jpeg" alt="Novo logo da MS"></img>
+                  <img class='mb-2 img-fluid rounded shadow' src="assets/tiaMaHugs.jpeg" alt="Novo logo da MS"></img>
+              </div>
+              <div class='col-lg-8 col-12 ps-4'>
+                  <p class="h6 lh-lg text-start">
+                      Era uma vez uma <span class="text-primary">gateira</span> chamada Tia Má, mãe orgulhosa de dois "<span class="text-primary">nenês</span>" adoráveis, Lilo e Stitch. A paixão por seus <span class="text-primary">felinos</span> era tão grande que, quando precisou de um Cat Sitter de confiança, percebeu o quão difícil era encontrar alguém que realmente entendesse suas necessidades e cuidasse de seus gatos como ela faria. 
                     <br/><br/>
-                    Decidida a fazer a diferença, Mariana mergulhou de cabeça em cursos e especializações, tornando-se uma verdadeira <span class="text-primary">especialista em comportamento e bem-estar felino</span>. Mas sua jornada não parou por aí. Cada atendimento se tornou uma oportunidade de aprendizado e aperfeiçoamento, um caminho que, a cada cliente e novo desafio, só aumentava sua paixão pelo que fazia.
-                    <br/><br/>
-                    Há mais de um ano, Tia Má tomou a decisão de se tornar Cat Sitter em tempo integral. Desde então, cada gato que cruza seu caminho é tratado como único, e cada cliente deixa sua marca, ajudando-a a crescer como <span class="text-primary">profissional</span> e como pessoa. Para Tia Má, ser Cat Sitter não é apenas um trabalho; é uma missão de vida, onde cada dia é uma nova aventura no mundo dos <span class="text-primary">felinos</span>.
-                  </p>
+                      A busca em aplicativos e sites foi frustrante, e Tia Má pensou: "Se eu estou enfrentando essa dificuldade, quantos outros <span class="text-primary">gateiros e gateiras</span> também não estão?" Foi então que uma ideia começou a crescer em seu coração.
+                      <br/><br/>
+                      Decidida a fazer a diferença, Mariana mergulhou de cabeça em cursos e especializações, tornando-se uma verdadeira <span class="text-primary">especialista em comportamento e bem-estar felino</span>. Mas sua jornada não parou por aí. Cada atendimento se tornou uma oportunidade de aprendizado e aperfeiçoamento, um caminho que, a cada cliente e novo desafio, só aumentava sua paixão pelo que fazia.
+                      <br/><br/>
+                      Há mais de um ano, Tia Má tomou a decisão de se tornar Cat Sitter em tempo integral. Desde então, cada gato que cruza seu caminho é tratado como único, e cada cliente deixa sua marca, ajudando-a a crescer como <span class="text-primary">profissional</span> e como pessoa. Para Tia Má, ser Cat Sitter não é apenas um trabalho; é uma missão de vida, onde cada dia é uma nova aventura no mundo dos <span class="text-primary">felinos</span>.
+                    </p>
+              </div>
+          </div>
+        </div>  
+      </div> 
+      <div data-section id="certificados" class="bg-secondary py-3">
+        <ul class="list-group col-10 col-lg-5 mx-auto shadow-lg">
+          <li class="list-group-item bg-primary mb-0 text-warning h2">Certificações de Mariana Souza</li>
+          <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="50" height="50" class="d-inline-block me-3">Primeiros Socorros;</li>
+          <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="50" height="50" class="d-inline-block me-3">Reatividade em cão e gato;</li>
+          <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="50" height="50" class="d-inline-block me-3">Adestramento de Felinos;</li>
+          <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="50" height="50" class="d-inline-block me-3">Comportamento e bem-estar felino.</li>
+        </ul>        
+      </div>
+      <div data-section id="depoimentos" class="overflow-x-hidden">
+        <div class="bg-primary shadow-lg row text-center align-items-center my-2">
+          <h2 class="h1 text-warning my-5">
+            <i class="bi bi-chat-square-heart me-3"></i>
+            Meus Clientes
+            <i class="bi bi-chat-square-heart ms-3"></i>
+          </h2>
+        </div>
+        <div id="carousel-depoimentos" class="carousel slide col-10 col-lg-5 mx-auto" data-bs-ride="carousel">
+          <div class="carousel-inner shadow-lg">
+            <div class="carousel-item active">
+              <img src="./assets/msNewLogo.jpeg" class="d-block w-100" alt="imagem de teste">
             </div>
+            <div class="carousel-item">
+              <img src="./assets/msNewLogo.jpeg" class="d-block w-100" alt="imagem de teste">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/msNewLogo.jpeg" class="d-block w-100" alt="imagem de teste">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-depoimentos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-depoimentos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
         </div>
-    </div> 
-        <div></div>
-        <div id="certificados" class="">
-            <ul class="list-group col-10 col-lg-5 mx-auto">
-                <li class="list-group-item bg-primary text-warning h2" aria-disabled="true">Certificações de Mariana Souza</li>
-                <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="30" height="26" class="d-inline-block me-3">Primeiros Socorros;</li>
-                <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="30" height="26" class="d-inline-block me-3">Reatividade em cão e gato;</li>
-                <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="30" height="26" class="d-inline-block me-3">Adestramento de Felinos;</li>
-                <li class="list-group-item"><img src="/assets/logo.png" alt="Logo" width="30" height="26" class="d-inline-block me-3">Comportamento e bem-estar felino.</li>
-              </ul>
-              
-              
-        </div>
-        <div id="depoimentos"></div>
-        <div id="contatos"></div>
-        
-        <h1 class="text-primary">Hello World Of Catsitting</h1>
-        <h1 class="text-warning">Hello World Of Catsitting</h1>
+      </div>
     </main>
     <footer>
-
+      <div id="contatos" class="overflow-x-hidden">
+        <div class='shadow-lg bg-primary py-4 mt-2'>
+          <div class="container px-5 pb-1">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <h2 class='text-warning mt-3'>Entre em contato</h2>
+                <ul>
+                  <li class="list-group-item my-4 h5">
+                    <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="https://www.instagram.com/ms_catsitter/">
+                      <i class="bi bi-instagram me-1"></i>
+                      Instagram
+                    </a>
+                  </li>
+                  <li class="list-group-item my-4 h5">
+                    <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="https://api.whatsapp.com/send?phone=5511949594651&text=Oi, tia Má! Gostaria de conversar com vc pra saber dos seus serviços.">
+                      <i class="bi bi-whatsapp me-1"></i>
+                      Whatsapp
+                    </a>
+                  </li>
+                  <li class="list-group-item my-4 h5">
+                    <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="https://www.facebook.com/profile.php?id=61564868244458">
+                      <i class="bi bi-facebook me-1"></i>
+                      Facebook
+                    </a>
+                  </li>
+                  <li class="list-group-item my-4 h5">
+                    <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="mailto:marianasouza.petsitting@gmail.com">
+                      <i class="bi bi-envelope-open-heart-fill me-1"></i>
+                      Email
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <iframe class="col-12 col-md-8 mt-3 bg-white border border-primary shadow rounded-3" height="320" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.2740184884533!2d-46.57156096108214!3d-23.656351737863208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce433eed071467%3A0x8ad9551314843e26!2sAv.%20Min.%20Osvaldo%20Aranha%2C%2023%20-%20Rudge%20Ramos%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009626-000!5e0!3m2!1spt-BR!2sbr!4v1724696240802!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>       
+      </div>
     </footer>
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-</body>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+  </body>
 </html>
